@@ -1,0 +1,27 @@
+# Файлы конфигурации
+.env
+
+# Файлы базы данных
+database.db
+
+# Файлы логов
+/bot_logs/bot_logs.log
+
+
+# Кэш и временные файлы Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Системные файлы и файлы настройки IDE
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Зависимости и метаданные пакетов
+*.egg-info/
+*.egg
+dist/
+build/
+
