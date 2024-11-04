@@ -48,7 +48,7 @@ def handle_start(message: Message) -> None:
 @bot.message_handler(commands=["about"])
 def bot_about(message: Message):
     bot.reply_to(message, f"Каждый месяц, 25-го числа бот отправляет оповещения об оплате "
-                          f"доступа к VPN-серверу NL-Server.\n"
+                          f"доступа к VPS-серверу NL-Server.\n"
                           f"Стоимость оплаты рассчитывается исходя из формулы:\n"
                           f"СТОИМОСТЬ АРЕНДЫ СЕРВЕРА / КОЛИЧЕСТВО ПОЛЬЗОВАТЕЛЕЙ\n"
                           f"Ознакомься с функциями бота, нажми на ---> /help\n"
